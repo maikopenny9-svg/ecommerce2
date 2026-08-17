@@ -1,0 +1,5 @@
+import { ContactForm } from "@/components/ContactForm";
+import { site } from "@/data/site";
+export const metadata={title:"Contact",description:"Start a conversation about software, websites, automation or digital solutions."};
+export default function Contact(){return <main id="main"><section className="page-hero"><div className="shell"><div className="eyebrow">Project enquiry</div><h1>What would better technology make possible?</h1><p>Share your challenge, goals and timing. We’ll use this as the starting point for a focused conversation.</p></div></section><section className="section shell"><div className="grid about-grid"><div><ContactForm/></div><aside className="card"><div className="eyebrow">Direct contact</div><h3>Let’s begin with context.</h3><p>Email<br/><a href={`mailto:${site.email}`}>{site.email}</a></p><p>Phone<br/><a href={`tel:${site.phone.replace(/\s/g,"")}`}>{site.phone}</a></p><p>Based in<br/>{site.location}</p><p className="eyebrow">Replace these placeholders in src/data/site.ts</p></aside></div></section></main>}
+
