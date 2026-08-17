@@ -1,4 +1,4 @@
-# Northstar Digital website
+# VM Engineering website
 
 A production-ready starter website for a software engineering and digital solutions company. Business content lives centrally in `src/data/site.ts` so it can be updated without hunting through components.
 
