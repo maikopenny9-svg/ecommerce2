@@ -1,6 +1,6 @@
 export const site = {
-  name: "Northstar Digital", // Replace with your company name
-  shortName: "ND",
+  name: "VM Engineering", // Replace with your company name
+  shortName: "VME",
   tagline: "Technology with a clear direction.",
   description: "Software, websites, automation and digital solutions engineered around the way you actually work.",
   email: "hello@yourcompany.co.za",
